@@ -1,5 +1,7 @@
-const key = "e154783a5ede45c8b09c5d81cd21f7a3"
-const googleApiKey = "AIzaSyCvW8WBx22_4ZG66gxYGghPtvy-0jmbWj8"
+const key = config.OPENWEATHERMAP_API_KEY;
+const googleApiKey = config.GOOGLE_API_KEY;
+
+
 let intervalId;
 
 function showData(data){
